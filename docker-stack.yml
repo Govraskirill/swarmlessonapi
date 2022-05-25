@@ -14,8 +14,6 @@ services:
         delay: 10s
       restart_policy:
         condition: on-failure
-    secrets:
-      - swarm-lessons-token
     logging:
       driver: json-file
       options:
